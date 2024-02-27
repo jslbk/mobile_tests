@@ -109,6 +109,10 @@ On the *Dashboard* in **Allure TestOps**, you can see the statistics of the numb
 <img title="Allure TestOps DashBoard" src="media/TestOpsDashboard.png">
 </p>
 
+<p align="center">
+<img title="Allure TestOps Cases" src="media/TestOpsCases.png">
+</p>
+
 ____
 <a id="jira"></a>
 ## <img width="4%" style="vertical-align:bottom" title="Jira" src="media/Jira.svg"> </a> Integration with <a target="_blank" href="https://jira.autotests.cloud/"> Jira </a>
