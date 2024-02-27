@@ -1,4 +1,4 @@
-**Project for automated testing of the [Wikipedia's](https://www.wikipedia.org/) mobile application via [Browswerstack](https://www.browserstack.com/)**
+# Atomated testing of the [Wikipedia's](https://www.wikipedia.org/) mobile application via [Browswerstack](https://www.browserstack.com/)
 
 
 <img alt="Wikipedia" src="media/Wiki.png" width="40%">
