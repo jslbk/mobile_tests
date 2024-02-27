@@ -17,7 +17,7 @@
 
 ____
 <a id="tools"></a>
-## Tools
+## 🛠️ Tools
 
 <p align="center">
 <a href="https://www.java.com/"><img width="6%" title="Java" src="media/Java.svg"></a>
@@ -73,44 +73,45 @@ gradle clean test
 
 ____
 <a id="jenkins"></a>
-## <img width="4%" style="vertical-align:bottom" title="Jenkins" src="media/Jenkins.svg"> </a> Jenkins Build <a target="_blank"> </a>
+## <img width="4%" title="Jenkins" src="media/Jenkins.svg"> </a> Jenkins Build <a target="_blank"> </a>
 
 Registration on the [Jenkins](https://jenkins.autotests.cloud/) resource is required for access to Jenkins.
 
 To start the build, go to the "Build with parameters" section, select the necessary parameters, and click "Build".
 ### Jenkins Build Parameters:
-- TASK (set of tests to run)
-- BROWSER (browser, chrome by default)
-- RESOLUTION (browser window size, 1920x1080 by default)
-- VERSION (browser version, 100.0 by default. Supports execution in Firefox on versions 98.0 and 97.0, as well as Chrome 99.0 and 100.0)
-- BASE (tested site base url)
+- TASK (set scope/task to execute)
+- COMMENT (optional parameter to add notes that will be displayed in report)
 
 <p align="center">
-<img title="Jenkins Build" src="media/Jenkins.png">
+<img title="Jenkins Build" src="media/JenkinsBuild.png">
 </p>
 After the build is completed, icons for "Allure Report" and "Allure TestOps" will appear next to the build number in the "Build History" section. Clicking on these icons opens pages with the generated HTML report and test documentation, respectively.
 
 ____
 <a id="allureReport"></a>
-## <img width="4%" style="vertical-align:bottom" title="Allure Report" src="media/Allure.svg"> </a> Example of <a target="_blank" href="https://jenkins.autotests.cloud/job/bob_autotests/20/"> Allure Report </a>
+## <img width="4%" style="vertical-align:bottom" title="Allure Report" src="media/Allure.svg"> </a> Example of <a target="_blank" href="https://jenkins.autotests.cloud/"> Allure Report </a>
 
 <p align="center">
-<img title="Allure Overview" src="media/Allure.png">
+<img title="Allure Overview" src="media/AllureOverview.png">
 </p>
 
 ____
 <a id="allure"></a>
-## <img width="4%" style="vertical-align:bottom" title="Allure TestOps" src="media/AllureTestOps.svg"> </a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/3952/dashboards"> Allure TestOps </a>
+## <img width="4%" style="vertical-align:bottom" title="Allure TestOps" src="media/AllureTestOps.svg"> </a> Integration with <a target="_blank" href="https://allure.autotests.cloud/"> Allure TestOps </a>
 
 On the *Dashboard* in **Allure TestOps**, you can see the statistics of the number of tests: how many of them are added and executed manually, how many are automated. New tests and test run results are sent through the integration with each build.
 
 <p align="center">
-<img title="Allure TestOps DashBoard" src="media/AllureTestOps.png">
+<img title="Allure TestOps DashBoard Graphs" src="media/AllureTestOpsDashboardGraphs.png">
+</p>
+
+<p align="center">
+<img title="Allure TestOps DashBoard" src="media/TestOpsDashboard.png">
 </p>
 
 ____
 <a id="jira"></a>
-## <img width="4%" style="vertical-align:bottom" title="Jira" src="media/Jira.svg"> </a> Integration with <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1042"> Jira </a>
+## <img width="4%" style="vertical-align:bottom" title="Jira" src="media/Jira.svg"> </a> Integration with <a target="_blank" href="https://jira.autotests.cloud/"> Jira </a>
 
 Integration with **Allure TestOps** and **Jira** is implemented. In the Jira task, you can see which test cases were written as part of the task and their execution results.
 
@@ -120,20 +121,20 @@ Integration with **Allure TestOps** and **Jira** is implemented. In the Jira tas
 
 ____
 <a id="telegram"></a>
-## <img width="4%" style="vertical-align:bottom" title="Telegram" src="media/Telegram.svg"> Telegram notifications via bot
+## <img width="4%" style="vertical-align:bottom" title="Telegram" src="media/Telegram.svg"> Automatically generated report notification in <a target="_blank" href="https://telegram.org/"> Telegram </a> via Bot
 
 After the build is complete, a **Telegram** bot automatically processes and sends a message with the test run report to a specifically configured chat.
 
 <p align="left">
-<img width="40%" title="Telegram Notifications" src="media/TelegramBot.png">
+<img width="40%" title="Telegram Notifications" src="media/TelegramBot.jpg">
 </p>
 
 ____
 <a id="video"></a>
-## <img width="4%" style="vertical-align:bottom" title="Browserstack" src="media/Browserstack.png"> </a> Browserstack video attachment example
+## <img width="4%" style="vertical-align:bottom" title="Browserstack" src="media/Browserstack.png"> </a> Screen recording attachment <a target="_blank" href="https://browserstack.com/"> Browserstack </a> example
 
 In the Allure reports for each test, a video of the test execution is attached along with a screenshot.
 
-<p align="center">
+<p align="left">
   <img title="Browserstack attachment" src="media/Video.gif">
 </p>
