@@ -13,7 +13,7 @@
 - <a href="#allure"> Integration with Allure TestOps</a>
 - <a href="#jira"> Integration with Jira</a>
 - <a href="#telegram"> Telegram notifications</a>
-- <a href="#video"> Example of test execution using Browserstack/a>
+- <a href="#video"> Example of test execution via Browserstack</a>
 
 ____
 <a id="tools"></a>
@@ -130,7 +130,7 @@ After the build is complete, a **Telegram** bot automatically processes and send
 
 ____
 <a id="video"></a>
-## <img width="4%" style="vertical-align:bottom" title="Browserstack" src="media/Browserstack.png"> </a> video attachment example
+## <img width="4%" style="vertical-align:bottom" title="Browserstack" src="media/Browserstack.png"> </a> Browserstack video attachment example
 
 In the Allure reports for each test, a video of the test execution is attached along with a screenshot.
 
