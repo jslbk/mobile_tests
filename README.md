@@ -1,7 +1,7 @@
 **Project for automated testing of the [Wikipedia's](https://www.wikipedia.org/) mobile application via [Browswerstack](https://www.browserstack.com/)**
 
 
-<img alt="Wikipedia" src="media/Wiki.png" width="50%">
+<img alt="Wikipedia" src="media/Wiki.png" width="40%">
 
 ## Content
 
@@ -63,7 +63,7 @@ ____
 
 ### Running Tests from the Terminal
 
-#### Local execution. From the project's root directory, run:
+#### Execution from the project's root directory:
 
 <em> To run <b>all</b> the tests: </em>
 
