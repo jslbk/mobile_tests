@@ -1,0 +1,16 @@
+{
+  "base": {
+    "project": "default",
+    "environment": "default",
+    "comment": "default",
+    "reportLink": "https://jenkins.autotests.cloud/job/bob_autotests/",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6806136025:AAGJ8ZGbDQzgdUZSbYoW9FfUBXKCjKiXrMA",
+    "chat": "-1002062716834",
+    "replyTo": ""
+  }
+}
