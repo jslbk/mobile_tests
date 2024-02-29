@@ -1,4 +1,4 @@
-# Atomated testing of the [Wikipedia's](https://www.wikipedia.org/) mobile application search via [Browswerstack](https://www.browserstack.com/)
+# Demo automation test project of the [Wikipedia's](https://www.wikipedia.org/) mobile application search via [Browswerstack](https://www.browserstack.com/)
 
 
 <img alt="Wikipedia" src="media/Wiki.png" width="40%">
