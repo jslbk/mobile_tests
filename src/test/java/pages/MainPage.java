@@ -8,21 +8,10 @@ import static io.appium.java_client.AppiumBy.accessibilityId;
 import static io.appium.java_client.AppiumBy.id;
 
 public class MainPage {
-    private final SelenideElement searchButtonLocator = $(accessibilityId("Search Wikipedia")),
-                                  firstArticleDescriptionLocator = $(id("org.wikipedia.alpha:id/page_list_item_description")),
-                                  wikiErrorTextLocator = $(id("org.wikipedia.alpha:id/view_wiki_error_text")),
-                                  wikiErrorBtnLocator = $(id("org.wikipedia.alpha:id/view_wiki_error_button"));
+    private final SelenideElement searchButtonLocator = $(accessibilityId("Search Wikipedia"));
 
     public void clickSearchButton() {
         $(searchButtonLocator).click();
     }
 
-    public void clickFirstArticle() {
-        firstArticleDescriptionLocator.click();
-    }
-
-    public void verifyErrorAfterOpeningArticle(String error) {
-        wikiErrorTextLocator.shouldHave(text(error));
-        wikiErrorBtnLocator.click();
-    }
 }

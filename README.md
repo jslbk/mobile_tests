@@ -89,7 +89,7 @@ After the build is completed, icons for "Allure Report" and "Allure TestOps" wil
 
 ____
 <a id="allureReport"></a>
-## <img width="4%" style="vertical-align:bottom" title="Allure Report" src="media/Allure.svg"> </a> Example of <a target="_blank" href="https://jenkins.autotests.cloud/"> Allure Report </a>
+## <img width="4%" style="vertical-align:bottom" title="Allure Report" src="media/Allure.svg"> </a> Example of <a target="_blank" href="https://jenkins.autotests.cloud/job/js_browserstack_mobile_tests/"> Allure Report </a>
 
 <p align="center">
 <img title="Allure Overview" src="media/AllureOverview.png">
