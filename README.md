@@ -73,7 +73,7 @@ gradle clean test
 
 ____
 <a id="jenkins"></a>
-## <img width="4%" title="Jenkins" src="media/Jenkins.svg"> </a> Jenkins Build <a target="_blank"> </a>
+## <img width="4%" title="Jenkins" src="media/Jenkins.svg"> </a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/js_browserstack_mobile_tests/lastBuild"> Build </a>
 
 Registration on the [Jenkins](https://jenkins.autotests.cloud/) resource is required for access to Jenkins.
 
@@ -89,7 +89,7 @@ After the build is completed, icons for "Allure Report" and "Allure TestOps" wil
 
 ____
 <a id="allureReport"></a>
-## <img width="4%" style="vertical-align:bottom" title="Allure Report" src="media/Allure.svg"> </a> Example of <a target="_blank" href="https://jenkins.autotests.cloud/job/js_browserstack_mobile_tests/"> Allure Report </a>
+## <img width="4%" style="vertical-align:bottom" title="Allure Report" src="media/Allure.svg"> </a> Example of <a target="_blank" href="https://jenkins.autotests.cloud/job/js_browserstack_mobile_tests/allure/"> Allure Report </a>
 
 <p align="center">
 <img title="Allure Overview" src="media/AllureOverview.png">
