@@ -23,7 +23,7 @@ ____
 <a href="https://www.java.com/"><img width="6%" title="Java" src="media/Java.svg"></a>
 <a href="https://selenide.org/"><img width="6%" title="Selenide" src="media/Selenide.svg"></a>
 <a href="https://browserstack.com/"><img width="6%" title="Browserstack" src="media/Browserstack.png"></a>
-<a href="https://appium.io/"><img width="6%" title="Appium" src="images/Appium.png"></a>
+<a href="https://appium.io/"><img width="6%" title="Appium" src="media/Appium.png"></a>
 <a href="https://allurereport.org/"><img width="6%" title="Allure Report" src="media/Allure.svg"></a>
 <a href="https://qameta.io/"><img width="5%" title="Allure TestOps" src="media/AllureTestOps.svg"></a>
 <a href="https://gradle.org/"><img width="6%" title="Gradle" src="media/Gradle.svg"></a>
