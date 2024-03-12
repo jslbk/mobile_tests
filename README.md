@@ -23,20 +23,21 @@ ____
 <a href="https://www.java.com/"><img width="6%" title="Java" src="media/Java.svg"></a>
 <a href="https://selenide.org/"><img width="6%" title="Selenide" src="media/Selenide.svg"></a>
 <a href="https://browserstack.com/"><img width="6%" title="Browserstack" src="media/Browserstack.png"></a>
-<a href="https://github.com/allure-framework/allure2"><img width="6%" title="Allure Report" src="media/Allure.svg"></a>
+<a href="https://appium.io/"><img width="6%" title="Appium" src="images/Appium.png"></a>
+<a href="https://allurereport.org/"><img width="6%" title="Allure Report" src="media/Allure.svg"></a>
 <a href="https://qameta.io/"><img width="5%" title="Allure TestOps" src="media/AllureTestOps.svg"></a>
 <a href="https://gradle.org/"><img width="6%" title="Gradle" src="media/Gradle.svg"></a>
 <a href="https://junit.org/junit5/"><img width="6%" title="JUnit5" src="media/Junit5.svg"></a>
 <a href="https://www.jenkins.io/"><img width="6%" title="Jenkins" src="media/Jenkins.svg"></a>
 <a href="https://web.telegram.org/"><img width="6%" title="Telegram" src="media/Telegram.svg"></a>
-<a href="https://www.atlassian.com/ru/software/jira/"><img width="5%" title="Jira" src="media/Jira.svg"></a>
+<a href="https://www.atlassian.com/en/software/jira/"><img width="5%" title="Jira" src="media/Jira.svg"></a>
 </p>
 
 ____
-Tests are written in Java using the Appium framework for mobile automation testing, and the build tool is Gradle.
-JUnit 5 is employed as the framework for unit testing. When running tests for remote execution, Browserstack is utilized.
-For remote execution, a Jenkins job is implemented with the generation of an Allure report and sending the results to Telegram via a bot.
-Integration with Allure TestOps and Jira is also implemented.
+Tests are written in <code>[Java](https://www.java.com/)</code> using the <code>[Appium](https://appium.io/)</code> framework for mobile automation testing, and the build tool is <code>[Gradle](https://gradle.org/)</code>.
+<code>[JUnit5](https://junit.org/junit5/)</code> is employed as the framework for unit testing. When running tests for remote execution, <code>[Browserstack](https://browserstack.com/)</code> is utilized.
+For remote execution, a <code>[Jenkins](https://www.jenkins.io/)</code> job is implemented with the generation of an <code>[Allure report](https://allurereport.org/)</code> and sending the results to <code>[Telegram](https://web.telegram.org/)</code> via a bot.
+Integration with <code>[Allure TestOps](https://qameta.io/)</code> and <code>[Jira](https://www.atlassian.com/en/software/jira/)</code> is also implemented.
 
 The contents of the Allure report for each test case include:
 - Test steps and the results of their execution
@@ -49,13 +50,9 @@ ____
 <a id="cases"></a>
 ## :male_detective: Test Cases
 
-Automated:
 - Verification of search results detection
 - Searching for the required definition
 - Verification of headline presence in news
-
-Manual:
-- Verification of successful navigation to the body of the news via link
 
 <a id="autotests"></a>
 ____
