@@ -1,4 +1,4 @@
-# Demo automation test project of the [Wikipedia's](https://www.wikipedia.org/) mobile application search via [Browswerstack](https://www.browserstack.com/)
+# Demo automation test project of the [Wikipedia's](https://www.wikipedia.org/) mobile application search via [BrowserStack](https://www.browserstack.com/)
 
 
 <img alt="Wikipedia" src="media/Wikipedia.png" width="100%">
@@ -44,7 +44,7 @@ The contents of the Allure report for each test case include:
 - Screenshot of the page at the last step (to visually analyze why the test failed)
 - Page Source (ability to open the page source in a new tab and see the reason for the test failure)
 - Browser console logs
-- Video (Screen recording from the Browserstack) of the test automation execution.
+- Video (Screen recording from the BrowserStack) of the test automation execution.
 
 ____
 <a id="cases"></a>
@@ -132,10 +132,10 @@ After the build is complete, a **Telegram** bot automatically processes and send
 
 ____
 <a id="video"></a>
-## <img width="4%" style="vertical-align:bottom" title="Browserstack" src="media/Browserstack.png"> </a> Screen recording attachment <a target="_blank" href="https://browserstack.com/"> Browserstack </a> example
+## <img width="4%" style="vertical-align:bottom" title="BrowserStack" src="media/Browserstack.png"> </a> Screen recording attachment <a target="_blank" href="https://browserstack.com/"> BrowserStack </a> example
 
 In the Allure reports for each test, a video of the test execution is attached along with a screenshot.
 
 <p align="left">
-  <img title="Browserstack attachment" src="media/Video.gif">
+  <img title="BrowserStack attachment" src="media/Video.gif">
 </p>
